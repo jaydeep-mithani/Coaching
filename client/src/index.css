@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+body {
+  margin: 0;
+  padding: 0 !important;
+  overflow-y: scroll !important;
+  font-family: "Poppins";
+}
+
+div[data-component="question"]{
+  display: none !important;
+}
+
+.about-wrapper {
+  background: #c6d7ec;
+}
+
+.about-img {
+  max-width: 200px;
+
+  @media (max-width: 968px) {
+    width: 60px;
+  }
+
+  @media (max-width: 768px) {
+    width: 45px;
+  }
+}
+
+.css-1m9128y {
+  margin: 0 -225px;
+  text-align: right !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .css-1m9128y {
+    margin: 0 -50px;
+    text-align: right !important;
+  }
+}
+
+.css-1abc02a {
+  display: none;
+}
+
+.css-hn784z {
+  display: none;
+}
+
+.coachesImg {
+  background-position: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .coachesImg {
+    background-position: top !important;
+  }
+}
